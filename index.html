@@ -3,22 +3,82 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Meta title and description-->
 	<title>Nina Carducci | Photographe professionnel à Bordeaux</title>
 	<meta name="description"
 		content="Photographe professionnel à Bordeaux, j'effectue des prestations de photographie pour les mariages, les concerts, des photos entreprise ou des photos portraits">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<!--Meta styles and scripts-->
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<!-- Rich Snippets -->
+	<script type="application/ld+json">
+        {
+                  "@context": "https://schema.org",
+                  "@type": "LocalBusiness",
+                  "name": "Nina Carducci | Photographe professionnelle à Bordeaux",
+                  "description": "Photographe professionnel à Bordeaux, spécialisé dans les mariages, les portraits et les événements.",
+                  "image": "https://github.com/Miha0501/OpenClassroomsProject4/blob/main/assets/images/nina.webp",
+                  "url": "https://github.com/Miha0501/OpenClassroomsProject4",
+                  "telephone": "+33 5 56 67 78 89",
+                  "priceRange": "50€ - 400€",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "68 avenue Alsace-Lorraine",
+                    "addressLocality": "Bordeaux",
+                    "postalCode": "33200",
+                    "addressCountry": "FR"
+                  },
+				  "geo": {
+					"@type": "GeoCoordinates",
+					"latitude": "44.84666384577246",
+					"longitude": "-0.6064742097874031",
+				  },
+				  "openingHoursSpecification": [
+				  {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Lundi",
+						"Mardi",
+					  	"Mercredi",
+					  	"Jeudi",
+					  	"Vendredi"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+					},
+        }
+     </script>
+
+	<!-- Open Graph meta tags FB -->
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://github.com/Miha0501/OpenClassroomsProject4" />
+	<meta property="og:title" content="Nina Carducci | Photographe professionnel à Bordeaux" />
+	<meta property="og:description"
+		content="Photographe professionnel à Bordeaux, j'effectue des prestations de photographie pour les mariages, les concerts, des photos entreprise ou des photos portraits" />
+	<meta property="og:image"
+		content="https://github.com/Miha0501/OpenClassroomsProject4/blob/main/assets/images/nina.webp" />
+		
+	<!-- Twitter meta tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://github.com/Miha0501/OpenClassroomsProject4" />
+	<meta name="twitter:title" content="Nina Carducci | Photographe professionnel à Bordeaux" />
+	<meta name="twitter:description"
+		content="Photographe professionnel à Bordeaux, j'effectue des prestations de photographie pour les mariages, les concerts, des photos entreprise ou des photos portraits" />
+	<meta name="twitter:image"
+		content="https://github.com/Miha0501/OpenClassroomsProject4/blob/main/assets/images/nina.webp" />
+	<meta name="twitter:url" content="https://github.com/Miha0501/OpenClassroomsProject4" />
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -32,21 +92,22 @@
 </script>
 
 <body>
-	<header class="top-header">
-		<h1 class="name">Nina Carducci</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.webp" alt="Aller vers le compte Instagram de Nina Carducci"></a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
+	<header>
+		<div class="top-header">
+			<h1 class="name">Nina Carducci</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">À propos</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+							target="_blank"><img src="assets/images/instagram.webp"
+								alt="Aller vers le compte Instagram de Nina Carducci"></a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 		<section id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -67,8 +128,8 @@
 							alt="Image avec le public assistant à un concert">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100"
-							alt="Image avec les  mariés qui s'embrassent lors de leur mariage">
+						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+							class="d-block w-100" alt="Image avec les  mariés qui s'embrassent lors de leur mariage">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -83,6 +144,8 @@
 				</button>
 			</div>
 		</section>
+	</header>
+	<main>
 		<section id="about">
 			<div class="picture left">
 				<img src="./assets/images/nina.webp" alt="Image avec la photographe Nina Carducci">
@@ -128,13 +191,14 @@
 						alt="Image avec le couple de mariés qui se tiennent la main et sourient" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-						alt="Portrait d'une femme avec lunettes qui se touche le cheveux avec la main" loading="lazy"/>
+						alt="Portrait d'une femme avec lunettes qui se touche le cheveux avec la main" loading="lazy" />
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
-						alt="Image avec le chanteur au concert qui montre 4 doigts vers le public" loading="lazy"/>
+						alt="Image avec le chanteur au concert qui montre 4 doigts vers le public" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-						alt="Portfolio d'un femme dans une entreprise qui sourit derrière son ordinateur portable" loading="lazy"/>
+						alt="Portfolio d'un femme dans une entreprise qui sourit derrière son ordinateur portable"
+						loading="lazy" />
 				</div>
 			</div>
 			<article class="quote">
