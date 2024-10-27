@@ -153,7 +153,6 @@
           index = i;
         }
       });
-      // Déterminer l'index de l'image précédente
       let previousIndex = index > 0 ? index - 1 : imagesCollection.length - 1;
       next = imagesCollection[previousIndex];
       $(".lightboxImage").attr("src", $(next).attr("src"));
@@ -192,7 +191,7 @@
           index = i;
         }
       });
-      let nextIndex = (index + 1) % imagesCollection.length; // Utilise le modulo pour revenir au début si nécessaire
+      let nextIndex = (index + 1) % imagesCollection.length;
       next = imagesCollection[nextIndex];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
